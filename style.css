@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    
+
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 30px;
+    color: green;
+}
+h3{
+    font-family: sans-serif;
+    color: teal;
+}
+p{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+
+}
+.name{
+    color: lawngreen;
+}
+.first{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.first img{
+    width: 80%;
+}
+.top-banner{
+    background-image:url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(yellow,green);
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ex{
+    font-size: 30px;
+    color: black;
+}
+.second{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.Experience{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#junior{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+}
